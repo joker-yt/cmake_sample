@@ -1,14 +1,21 @@
 #include "gtest/gtest.h"
+#include "MyTestFixture.h"
 #include "myclass.h"
 
-myclass<int> cl;
+// not needed
+// myclass<int> cl;
 
-TEST(mytest, test1)
+TEST_F(MyTestFixture, test1)
 {
     EXPECT_EQ(cl(1, 2), 3);
 }
 
-TEST(mytest, test2)
+TEST_F(MyTestFixture, test2)
 {
     EXPECT_EQ(cl(1, 2), 0);
+}
+
+TEST_F(MyTestFixtureStr, test3)
+{
+    EXPECT_EQ(cl("string1", "string2"), "string1string2");
 }
