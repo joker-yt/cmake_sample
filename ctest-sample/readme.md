@@ -9,8 +9,8 @@
 1. cmake --build .
 1. "ctest" or "my-ctest"
 
-Result of "ctest"
+Result of "ctest"  
 ![result_of_ctest.png](../img/result_of_ctest.png)
 
-Result of "my-ctest"
+Result of "my-ctest"  
 ![result_of_ctest.png](../img/result_of_my-ctest.png)
