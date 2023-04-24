@@ -1,0 +1,3 @@
+[submodule "gtest-sample"]
+	path = gtest-sample
+	url = https://github.com/joker-yt/jenkins-trials.git
